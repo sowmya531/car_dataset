@@ -7,31 +7,31 @@ This project focuses on analyzing a car dataset using Python and Pandas. The ana
 
 🛠️ Tools & Technologies
 
-Python
-Pandas
-Jupyter Notebook
+1.Python
+2.Pandas
+3.Jupyter Notebook
 
 📂 Dataset Description
 
 The dataset contains car-related attributes such as:
 
-Make
-Origin
-Weight
-MPG_City
-Other performance-related features
+->Make
+->Origin
+->Weight
+->MPG_City
+->Other performance-related features
 
 ⚙️ Commands Used
 
-import pandas as pd → Import Pandas library
-pd.read_csv() → Load dataset
-head() → Display first 5 rows
-shape → Show dataset dimensions
-df.isnull().sum() → Identify missing values
-fillna() → Handle missing values using mean
-value_counts() → Count unique values
-isin() → Filter specific records
-apply() → Apply function on column
+1.import pandas as pd → Import Pandas library
+2.pd.read_csv() → Load dataset
+3.head() → Display first 5 rows
+4.shape → Show dataset dimensions
+5.df.isnull().sum() → Identify missing values
+6.fillna() → Handle missing values using mean
+7.value_counts() → Count unique values
+8.isin() → Filter specific records
+9.apply() → Apply function on column
 
 🔍 Analysis Approach
 
@@ -39,11 +39,11 @@ The project is carried out by solving real-world data analysis questions using P
 
 ❓ Analysis Questions
 
-Find all the null values in the dataset and handle them using isnull() and fillna().
-Identify different types of car 'Make' and their counts using value_counts().
-Filter records where 'Origin' is Asia or Europe using isin().
-Remove records where 'Weight' is greater than 4000.
-Increase 'MPG_City' values by 3 using apply().
+1.Find all the null values in the dataset and handle them using isnull() and fillna().
+2.Identify different types of car 'Make' and their counts using value_counts().
+3.Filter records where 'Origin' is Asia or Europe using isin().
+4.Remove records where 'Weight' is greater than 4000.
+5.Increase 'MPG_City' values by 3 using apply().
 
 🚀 Conclusion
 
